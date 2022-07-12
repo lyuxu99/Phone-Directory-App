@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+body{
+  text-align: center;
+}
 input {
   padding: 5px;
   font-size: 12px;
@@ -123,4 +126,12 @@ th, td {
   padding: 10px;
   min-width: 150px;
   text-align: left;
+}
+
+#summaryTable{
+  margin: 0 auto;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #f2f2f2;
 }
